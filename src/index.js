@@ -4,6 +4,7 @@ import './index.css';
 import ToggleLoading from "./component/inizializestate";
 import ColorPicker from "./component/colorpicker";
 import EmailTextInput from "./component/statesetteroutjsx";
+import Counter from "./component/setfromprevstate";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +13,7 @@ root.render(
     <ToggleLoading />
     <ColorPicker />
     <EmailTextInput />
+    <Counter />
   </React.StrictMode>
 );
 
