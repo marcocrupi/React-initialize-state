@@ -6,6 +6,7 @@ import ColorPicker from "./component/colorpicker";
 import EmailTextInput from "./component/statesetteroutjsx";
 import Counter from "./component/setfromprevstate";
 import PersonalPizza from "./component/arrayinstate";
+import Login from "./component/objectinstate";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <EmailTextInput />
     <Counter />
     <PersonalPizza />
+    <Login />
   </React.StrictMode>
 );
 
