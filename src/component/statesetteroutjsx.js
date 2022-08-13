@@ -8,6 +8,7 @@ export default function EmailTextInput() {
 
   return (
     <div>
+      <h1>Lezione: Usare State Setter al di fuori di JSX</h1>
       <p>Output email digitata: {email}</p>
       <form>
         <input

@@ -19,6 +19,7 @@ export default function ColorPicker() {
 
   return (
     <div style={divStyle}>
+      <h1>Lezione: uso di State con array e metodo map</h1>
       <p>Selected color: {color}</p>
       {colorNames.map((colorName) => (
         <button onClick={() => setColor(colorName)} key={colorName}>
