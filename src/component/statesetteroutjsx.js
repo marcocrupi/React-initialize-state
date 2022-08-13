@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function EmailTextInput() {
   const [email, setEmail] = useState("");
-  const handleChange = ({ event }) => setEmail(event.target.value);
+  const handleChange = (event) => setEmail(event.target.value);
   //   Si può scrivere anche così usando la destrutturazione
   //   dell'oggetto: const handleChange = ({target}) => setEmail(target.value);
 
